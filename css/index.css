@@ -86,3 +86,23 @@ p {
     left: auto;
     position: relative;
 } 
+
+.group {
+    user-select: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.item {
+    width: 10vw;
+    height: 65vh;
+    position: relative;
+    /* background-image: url('img/background.png'); */
+    background-position: center;
+    background-size: 75vh;
+    margin: 1vw;
+    border-radius: 3vw;
+    display: inline-block;
+    cursor: pointer;
+}
